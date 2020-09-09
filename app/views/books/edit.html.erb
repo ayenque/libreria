@@ -1,0 +1,12 @@
+<h2> Actualizar libro</h2>
+
+<%= form_for(@book) do |f| %>
+
+	
+	<%= render( :partial => "form", :locals => { :f => f }) %>
+
+	<div>
+		<%= f.submit("actualizar libro") %>
+	</div>
+
+<% end %>
