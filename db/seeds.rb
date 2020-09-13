@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Author.create(nombre: 'Angelo', apellido: 'Yenque', correo: 'correo@ayenque.page')
+Author.create(nombre: 'Paul', apellido: 'Gutierrez', correo: 'hola@ayenque.page')
+Author.create(nombre: 'Tume', apellido: 'Salas', correo: 'admin@ayenque.page')
+
+Book.create(titulo: 'Libro 1', author_id: 1 , descripcion: 'Desc Libro 1' , estado: 'Publicado', visible:false)
+Book.create(titulo: 'Libro 2', author_id: 2 , descripcion: 'Desc Libro 2' , estado: 'Publicado', visible:false)
+Book.create(titulo: 'Libro 3', author_id: 3 , descripcion: 'Desc Libro 3' , estado: 'Publicado', visible:false)
