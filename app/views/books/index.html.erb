@@ -3,6 +3,7 @@
 <div>
 	<%= link_to("Crear Libro", new_book_path()) %>
 </div>
+<br>
 
 <div>	
 
@@ -21,7 +22,7 @@
 				<td>
 					<%= link_to("Mostrar", book_path(book)) %>
 					<%= link_to("Editar", edit_book_path(book)) %>
-					<%= "eliminar" %>
+					<%= "Eliminar" %>
 				</td>
 			</tr>
 		<% end %>
