@@ -20,6 +20,6 @@ Rails.application.routes.draw do
  # get 'authors/edit'  #update
  # get 'authors/delete' #destroy
 
-  root 'books#index' #carga por defecto   
+  root 'authors#index' #carga por defecto   
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

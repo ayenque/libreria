@@ -1,13 +1,14 @@
 
 
-<table>
+<table class="table">
 		<tr>
 			<th>Titulo</th>
 			<td><%= f.text_field(:titulo) %></td>
 		</tr>
 		<tr>
 			<th>Autor</th>
-			<td><%= f.select(:author_id, @authors) %></td>
+			
+			<td><%= f.object.author.nombre %></td>
 		</tr>
 		<tr>
 			<th>Visible</th>
